@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Welcome!</title>
+	<link href="StyleSheet.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="container1">
+    	<a><img src="img/Welcome.jpg" id="imgWelcome" alt="welcomeimage" style="width:100%"></a>
+    <br>
+		<button onclick="demoDisplay()" id="close-image"><img src="img/sit.gif" id="imgStart" alt="startbutton" style="width:100%"></button>
+	<p> The outcome of the game is determined by 3 simple rules:
+		<br>
+		<br> Water wins against fire.
+		<br> Grass win against water.
+		<br> Fire wins against grass.</p>
+</div>
+
+<script src="external_javascript.js"></script>
+
+
+<div id="container">
+	<h3>Choose Fire, Water, or Grass:</h3>
+	<div class="clearfix">
+		<img class="icon" id="fire" src="img/fire.png" title="FirePokemon" width="30" height="30" >
+		<img class="icon" id="water" src="img/water.png" title="WaterPokemon" width="30" height="30">
+		<img class="icon" id="grass" src="img/grass.png" title="GrassPokemon" width="30" height="30">
+
+
+		<img class="iconComputer" id="fire1" src="img/fire.png" title="FirePokemon" width="30" height="30" >
+		<img class="iconComputer" id="water1" src="img/water.png" title="WaterPokemon" width="30" height="30">
+		<img class="iconComputer" id="grass1" src="img/grass.png" title="GrassPokemon" width="30" height="30">
+	</div>
+
+	<p id="myChoice"></p>
+	<p id="computersChoice"></p>
+	<hr>
+	<p id="finalResult"></p>
+	<hr>
+	<p id="counter"></p>
+	<p id="gamePlayed"></p>
+</div>
+
+<script src="external_javascript1.js"></script>
+
+</body>
+</html>
